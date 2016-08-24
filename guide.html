@@ -1,0 +1,72 @@
+---
+layout: default
+title: "USAID Kathmandu Tracing Guide"
+---
+
+<div class="row">
+	<div class="large-10 medium-8 small-8 columns">
+		<h2>Tracing Guide</h2>
+
+		<div data-magellan-expedition="fixed">
+			<dl class="sub-nav">
+				<dd data-magellan-arrival="about"><a href="#about">About this Guide</a></dd>
+				<dd data-magellan-arrival="density"><a href="#density">Building Density</a></dd>
+			</dl>
+		</div>
+
+		<h3 data-magellan-destination="about">About</h3>
+		
+		<p>This should serve as a reference for users tracing building footprints within the Kathmandu Valley. The guide gives examples for tracing in low, medium, and high density areas. Users should begin tracing in a low density areas until they become comfortable identifying and tracing features. Only when users are comfortable tracing in a low density environment should they attempt medium density, and then progress to high density areas. Density levels described in this guide have not been assigned to specific sections of the city and should be applied on an ad hoc basis.</p>
+
+		<p><b>Imagery:</b> The imagery available for tracing has been provided by DigitalGlobe through the NextView license agreement. This imagery is being hosted by the State Department Humanitarian Information Unit Imagery to the Crowd platform, and is the highest resolution satellite data commercially available. Even with this high quality imagery it is still difficult to positively identify buildings and roads.</p>  
+
+		<p>Minimum Mapping Unit (MMU): The suggested MMU when using this guide is 2m, which equals approximately 3-4 pixels. Buildings less than the MMU should be collected as one, and building features such as awnings and courtyards should only be collected if they exceed the MMU. This means some building footprints will be generalized. Clearly defined alleyways meeting the MMU should be collected to help delineate building masses.</p>
+
+		<p>Topology: Topology is the spatial relationship of objects and their position related to one another. Extracted features should be a representation of reality while maintaining sound topology. If Topology errors are found they should be corrected. The most common topological errors in Kathmandu are the overlap of buildings and roads, or improperly extracted building footprints as identified below.</p>
+
+		<p>This example shows incorrectly digitized buildings. The image on the right has interconnected buildings collected separately. In the image on the left you see the buildings are connected and should be collected as one for a true representation of reality. If buildings are collected individually one could assume pathways exist between them when in fact they do not.</p>
+
+		<div class="panel"><p><b>Tracing Tip:</b> It is helpful to zoom out when tracing as surrounding features help build the relationship of nearby features.</p></div>
+
+		<h3>Building Density in Kathmandu</h3>
+
+		<h4>Low Density Areas</h4>
+		<p>Low density areas are places within the city which have features surrounded by large areas of open space and are the easiest place to begin tracing. In low density areas tracers should begin training their eyes to study shadows, which indicates the suns position. Care should be taken to trace the building footprint rather than placement of the rooftop. In some cases you can see the side of taller buildings and the roof is offset from the existing footprint. For an in-depth look into roof modeling reference the  wiki listed at the end of this guide. It does an excellent job explaining common interpretation errors associated with building roofs and shadows. In the low density environment tracers should be aware of roof features which can trick you eye in determining the true shape of a building. In Kathmandu is it common for rooftops to be flat and have features such as additional rooms, covered awnings, and water tanks on top.</p>
+
+		<p>Medium Density Areas: Medium density areas introduce footpaths between tightly spaced buildings. Footpaths should be collected when they are clearly identified. Footpaths do not always connect and it is acceptable to stop tracing at a dead end. Searching for footpaths and shadows between buildings will help a user in delineating building mass. Buildings are often interconnected and built at different heights. When a user cannot identify a clear break between buildings, they should be collected as one. Most buildings in medium density areas have right angles making their edges easier to identify. If available it is helpful to use multiple image sources to have another perspective of the area.</p>
+
+		<p>High Density Areas:  In high density areas of Kathmandu there are very few open spaces and entire sections of the city between roads are built up. Every building is accessible, most by a narrow alley only a few meters wide. These are the most difficult areas to collect and should only be attempted once a user has had the opportunity to condition their eyes by collecting low and high density areas. You will find large areas consisting of dense interconnected buildings of various shapes and sizes. Users should begin by studying the area and identifying shadows and logical footways between buildings. Look for signs of flat areas such as roadways and packed dirt.  Identifying flat areas that do not cast shadows is helpful in determining footways and building footprints. Again additional image sources provide a different perspective and can be very helpful.</p>
+
+		<p>Low Density Areas: Small footways are clearly visible surrounding the main building. Footways often do not connect so it is acceptable to add dead end lines. Only connect paths when their intersection is clearly visible.</p>
+
+		<p>Low Density Areas: Building footprints are easy to identify. In most cases building corners are right angles, although they can often be hidden behind trees and shadows. In these cases be sure to generate right angles for building corners. Also keep an eye out for structures on building roofs, which can make delineating a building footprint difficult.</p>
+
+		<p>Medium Density Areas: Here is a visible alley between buildings which is easy to identify due to the wide space between buildings and its color, texture and shape. In reality alleys do not always connect with other alleys/roads and the tracing should represent the reality of what a user can positively identify in the image.</p>
+
+		<p>What you might see (notes in Yellow)</p>
+
+		<p>Edits you would make (Red)
+		Note how interconnected buildings were collected as one. Building footprints should be delineated by building edges, often identified by looking for geometric angles and large shadows. If a user is unable to identify a building in the image due to shadows or other variables, the space should be left empty. In these cases it can be helpful to use multiple imagery sources.
+		Medium Density Area Examples:</p>
+
+		<p>High Density Areas: Study the image below of a high density area and look for logical roads and alleys by identifying building shadows and empty spaces. These features should be collected if a user is able to accurately determine their location. It is better to not collect an alley then to collect one which does not exist.</p>
+
+		<p>What you might see (notes in Yellow)</p>
+
+		<p>Area after digitizing (in red)
+		Identify building edges by studying shadows and looking for open spaces. In high density areas buildings are randomly placed and have varying heights making extraction very difficult. When buildings are interconnected they should be collected together and often do not have right angles. It is common to not have perfectly square buildings in high density areas.</p>
+
+		<p>Example showing alleys between buildings, remember only add an alley if it is positively identifiable. If you are unsure, leave the space blank. You must also remember that all buildings are accessible somewhere. Building located between other buildings have an access point, but finding it can be tricky.</p>
+
+		<p>Expected Results
+		Results generated from this effort will be used directly by the KKL team in Nepal. Sample areas will be generated from the areas traced and the KLL field teams will survey results in the field and report back on accuracy. Long term goals include generating a building mass estimation model for the entire Kathmandu Valley to assist urban planners and response managers should a seismic event occur.</p>
+
+
+		<h3>References</h3>
+		<ol>
+			<li>Digitizing Building Footprints in Kathmandu, Nepal: <a href="https://www.dropbox.com/s/vfzuts53193gmj3/Building%20Footprint%20Digitization%20Guide1.pdf?n=123074200">https://www.dropbox.com/s/vfzuts53193gmj3/Building%20Footprint%20Digitization%20Guide1.pdf?n=123074200</a></li>
+			<li>Roof Modeling: <a href="http://wiki.openstreetmap.org/wiki/Roof_modelling">http://wiki.openstreetmap.org/wiki/Roof_modelling</a></li>
+		</ol>
+
+	</div>
+</div>
